@@ -1,5 +1,7 @@
 :root {
   --colors-primary-800: #00494b;
+  --colors-primary-subtle-text: #00494b;
   --colors-primary-action: #57b581;
   --colors-primary-300: #97ecb8;
+  --colors-primary-subtle: #97ecb8;
 }
