@@ -4,6 +4,7 @@
   --colors-primary:#00494b;
   --colors-primary-dark-100: #00494b;
   --colors-primary-500: #00494b;
+  --colors-primary-dark-50: #00494b;
     
   --colors-primary-action: #57b581;
   
@@ -11,7 +12,6 @@
   --colors-primary-dark-300: #97ecb8;
   --colors-primary-subtle: #97ecb8;
   --colors-primary-200: #97ecb8;
-  --colors-primary-dark-50: #97ecb8;
 }
 
 .Header-logo {
@@ -20,4 +20,8 @@
   height: 100px;
   max-height: 1000px;
   max-width: 1000px;
+}
+
+.\[\&\[data-hovered\]\]\:bg-c_primaryDark\.100[data-hovered] {
+    background-color: #97ecb8;
 }
