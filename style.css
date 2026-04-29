@@ -16,7 +16,7 @@
 }
 
 .Header-logo {
-  visibility: hidden;  /* cache l'image originale */
+  visibility: hidden;
   position: relative;
 }
 
