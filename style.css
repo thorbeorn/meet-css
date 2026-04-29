@@ -28,4 +28,5 @@
 
 body > div:nth-child(n+2):nth-child(-n+15) > div {
   background-color: #97ecb8;
+  color: #00494b;
 }
