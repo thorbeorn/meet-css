@@ -14,3 +14,15 @@
 
   --colors-primary-dark-50: #edff8c;
 }
+
+.Header-logo {
+  visibility: hidden;  /* cache l'image originale */
+  position: relative;
+}
+
+.Header-logo::after {
+  content: url('https://github.com/thorbeorn/meet-css/blob/main/LasuiteVerte_meet.png?raw=true');
+  visibility: visible;
+  position: absolute;
+  left: 0;
+}
